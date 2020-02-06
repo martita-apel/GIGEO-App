@@ -1,0 +1,13 @@
+.btn {
+  border-radius: 0.3px;
+}
+
+.boton1:hover {
+  background-color: aquamarine;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__button {
+    display: none;
+  }
+}

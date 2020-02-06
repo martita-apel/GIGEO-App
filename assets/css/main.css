@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "futura-book";
+  src: url("assets/fonts/FuturaEF-Book.otf") format("otf");
+}
+@font-face {
+  font-family: "futura-bold";
+  src: url("assets/fonts/FuturaEF-Bold.otf") format("otf");
+}
+@font-face {
+  font-family: "futura-light";
+  src: url("assets/fonts/FuturaEF-Light.otf") format("otf");
+}
+.navbar-brand {
+  width: 150px;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.header__banner {
+  width: 100%;
+  height: 25vh;
+  overflow: hidden;
+  background-image: url("../img/image-banner.png");
+  background-size: cover;
+  background-position: center;
+}
+.header__banner img {
+  image-orientation: center;
+}
+
+.header__elements {
+  width: 100%;
+  padding: 0 40px;
+  display: flex;
+  border-bottom: 0.5px solid #eaeaea;
+  padding: 15px 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__image {
+  width: 120px;
+  height: 115px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.header__profile {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header__profile h4 {
+  font-family: futura-bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__elements {
+    border-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 578px) {
+  .header__elements {
+    padding: 0 20px;
+    padding-top: 20px;
+  }
+
+  .header__profile {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.section__audiovisual {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section_card {
+  padding-top: 30px;
+}
+.section_card h5 {
+  font-size: 18px;
+  font-family: futura-bold;
+  padding-top: 15px;
+}
+.section_card h6 {
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 578px) {
+  .section__audiovisual {
+    padding: 30px;
+    margin-top: 0;
+  }
+  .section__audiovisual h3 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+.btn {
+  border-radius: 0.3px;
+}
+
+.boton1:hover {
+  background-color: aquamarine;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__button {
+    display: none;
+  }
+}
