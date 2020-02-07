@@ -2,8 +2,24 @@
   border-radius: 0.3px;
 }
 
-.boton1:hover {
-  background-color: aquamarine;
+.boton1 {
+  background-color: #33cccc;
+  color: white;
+
+  &:hover {
+    background-color: #83ddda;
+    color: white;
+  }
+}
+
+.boton2 {
+  background-color: #ed6564;
+  color: white;
+
+  &:hover {
+    background-color: #ed8e8e;
+    color: white;
+  }
 }
 
 @media only screen and (max-width: 768px) {

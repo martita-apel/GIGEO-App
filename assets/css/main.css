@@ -114,8 +114,22 @@ img {
   border-radius: 0.3px;
 }
 
+.boton1 {
+  background-color: #33cccc;
+  color: white;
+}
 .boton1:hover {
-  background-color: aquamarine;
+  background-color: #83ddda;
+  color: white;
+}
+
+.boton2 {
+  background-color: #ed6564;
+  color: white;
+}
+.boton2:hover {
+  background-color: #ed8e8e;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
